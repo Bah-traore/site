@@ -1,0 +1,432 @@
+*
+:before,
+:after {
+box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    
+}
+div.cover{
+    background: url(photo_fond/fond.jpg) no-repeat ;
+    background-position-x:center;
+    background-size: cover;
+    height: 680px;
+}
+
+.description_section_body_perso{
+    min-width: 100%;
+    width: 90%;
+}
+
+.majuscul{
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.contenu_haut{
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 60px;
+    box-shadow: 0 0 6px 5px black;
+    
+}
+
+
+/* Cette partie est pour le style SEYDOU BAH TRAORÉ */
+div.class_div1 h1{
+    display: inline;
+    float: left;
+    justify-content: center;
+    text-align: left;
+    float: left;
+    color: black;
+    background: transparent;
+    box-shadow: 0 0 8px 1px rgb(69, 69, 69);
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    animation: text-shadow 1.5s ease-in-out infinite;
+    line-height: 1;
+    font-size: x-large;
+}
+
+
+/* Cette partie est pour le style Accueil- Project- Contact */
+
+div.class_div2 nav ul{
+    color:white;
+    border-radius: 5px;
+    display: inline-block;
+    width: 60px;
+    text-align: right;
+    list-style: none;
+    padding: 0px 20px;
+    margin: 0px;
+    margin-top: 2px;
+    font-size: 20px;
+
+}
+div.class_div2{
+    display: inline;
+    float: right;
+}
+
+h1:hover {
+animation-play-state: paused;
+
+}
+
+
+
+a:hover {
+text-decoration: none;
+}
+
+@keyframes text-shadow {
+0% {  
+    transform: translateY(0);
+    text-shadow: 
+        0 0 0 #0c2ffb, 
+        0 0 0 #2cfcfd, 
+        0 0 0 #fb203b, 
+        0 0 0 #fefc4b;
+}
+
+10% {  
+    transform: translateY(2px);
+    text-shadow: 
+        0 0.125em 0 #0c2ffb, 
+        0 0.25em 0 #2cfcfd, 
+        0 -0.125em 0 #fb203b, 
+        0 -0.25em 0 #fefc4b;
+}
+
+1% {  
+    transform: translateY(1px);
+    text-shadow: 
+        0 -0.0625em 0 #0c2ffb, 
+        0 -0.125em 0 #2cfcfd, 
+        0 0.0625em 0 #fb203b, 
+        0 0.125em 0 #fefc4b;
+}
+
+20% {
+    transform: translateY(0);
+    text-shadow: 
+        0 0.03125em 0 #0c2ffb, 
+        0 0.0625em 0 #2cfcfd, 
+        0 -0.03125em 0 #fb203b, 
+        0 -0.0625em 0 #fefc4b;
+}
+
+10% {  
+    transform: translateY(0);
+    text-shadow: 
+        0 0 0 #0c2ffb, 
+        0 0 0 #2cfcfd, 
+        0 0 0 #fb203b, 
+        0 0 0 #fefc4b;
+}
+}
+
+
+.description{
+margin: 10px;
+margin-left: 40px;
+width: 90%;
+background: transparent;
+text-align: center;
+max-width: 100%;
+display: flex;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+justify-content: center;
+}
+.description2{
+    display: flex;
+    justify-content: center;
+}
+.cadre-photo{
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    width: 35%;
+    height: 30%;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 3px;
+    box-shadow: #000 2px 4px 20px 4px;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+}
+.cadre-photo  span{
+    font-weight: 10;
+    color: white;
+    text-shadow: #000 2px 2px 4px;
+}
+.cadre-photo > p > img{
+    width: 150px;
+}
+.custom-btn {
+    padding: 5px 15px 5px 15px;
+    color: #fff;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    box-shadow:inset 0px 0px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(236, 226, 226, 0.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline:none;
+}
+
+.btn-1 {
+border: none;
+color: #000;
+}
+.btn-1:after {
+position: absolute;
+content: "";
+width: 0;
+height: 100%;
+top: 0;
+left: 0;
+direction: rtl;
+z-index: -1;
+border-radius: 5px;
+box-shadow:
+-7px -7px 20px 0px #fff9,
+-4px -4px 5px 0px #fff9,
+7px 7px 20px 0px #0002,
+4px 4px 5px 0px #0001;
+transition: all 0.3s ease;
+}
+
+.btn-1:hover {
+color: #cacfe2;
+}
+
+.btn-1:hover:after {
+left: auto;
+right: 0;
+width: 100%;
+}
+.btn-1:active {
+top: 2px;
+}
+
+.flex-center {
+display: block;
+overflow: hidden;
+}
+
+
+.social-btn {
+    padding-top: 3px;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #f5eeee;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    background: rgba(203, 199, 199, 0.23);
+    margin: 5px;
+    transition: 1s;
+    box-shadow: #000 2px 4px 30px 2px;
+}
+
+.social-btn span {
+width: 0px;
+overflow: hidden;
+transition: 1s;
+text-align: center;
+}
+
+.social-btn:hover {
+height: 200px;
+width: 180px;
+border-radius: 5px;
+}
+
+.social-btn:hover span {
+padding: 2px;
+width: max-content;
+}
+div.sql:hover{
+height: 230px;
+}
+
+/* partie pour contact Github Email Facebook*/
+
+footer{
+    background-color: rgba(31, 30, 30, 0.1);
+}
+/* partie pour contact Github Email Facebook*/
+.group_Contact .align_div{
+position: relative;
+}
+.text-h1_bas > h1{
+    margin-top: 0;
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+    color: #000;
+}
+a:visited{
+    color: #000;
+}
+a.cord:hover{
+    background-color: #aaa2a2 ;
+    border-radius: 4px;
+
+}
+a:active{
+    color: rebeccapurple;
+}
+
+div.text_descriptif{
+text-transform: uppercase;
+text-align: center;
+font-family: cursive;
+}
+
+.table{
+    margin: -10px 0 10px 0;
+    background-color: rgb(223, 218, 218);
+    box-shadow: 10px 10px 30px 2px ;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 30px;
+    font-size: 14px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 5px;
+    }
+.table-e{
+cursor: pointer;
+height: 20px;
+width: 80px;
+border-radius: 10px;
+transition: 0.60s;
+}
+.table-e:hover  {
+height: 30px;
+width: 80px;
+border-radius: 5px;
+}
+.tabl-horizontal {
+display:inline-block;
+}
+
+
+@media only screen and (min-width: 750px)   {
+
+    .contenu_haut{
+        padding-bottom: 55px;
+    }
+    
+    div.class_div1 h1{
+        padding: 1px 5px 1px 5px;
+    }
+    h1.majuscul{
+        font-size: 25px;
+    }
+    
+    }
+
+
+@media only screen and (max-width: 621px){
+    .contenu_haut{
+        padding-bottom: 57px;            
+    }
+    
+    div.class_div1 h1{
+        padding: 1px 5px 1px 5px;
+    }
+
+    .cadre-photo{
+        width: 65%;
+        height: 30%;
+        box-shadow: #000 2px 4px 20px 4px;
+    }
+    .cadre-photo  span{
+    padding: 40px;
+    color: rgb(245, 245, 245);
+    text-shadow: #000 2px 2px 4px;
+}
+
+
+    .description{
+        margin: 10px;
+        margin-left: 0px;
+        width: 100%;
+        }
+    div.social-btn > p{
+        padding-top: 5px;
+        padding-bottom: 8px;
+    }
+    div.social-btn {
+        height: 45px;
+        width: 150px;
+        margin: 2px;
+        font-size: 12px;
+    }
+    
+    .social-btn:hover {
+    height: 195px;
+    width: 380px;
+    border-radius: 5px;
+    }
+    
+    .social-btn:hover span {
+    padding: 2px;
+    width: max-content;
+    }
+    div.sql:hover{
+    height: 195px;
+    }
+    div.html:hover{
+        height: 155px;
+    }
+    div.django:hover{
+        height: 140px;
+    }
+    div.javaScript:hover{
+        height: 160px;
+    }
+}
+@media screen and  (min-width:1100px){
+    .cadre-photo{
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 5px;
+    width: 35%;
+    height: 30%;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 3px;
+    box-shadow: #000 2px 4px 20px 4px;
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+}
+.cadre-photo  span{
+    font-weight: 10;
+    color: white;
+    text-shadow: #000 2px 2px 4px;
+}   
+.cadre-photo  span{
+    padding: 40px;
+    color: rgb(245, 245, 245);
+    text-shadow: #000 2px 2px 4px;
+}
+
+
+}
