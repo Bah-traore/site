@@ -358,7 +358,8 @@ display:inline-block;
         box-shadow: #000 2px 4px 20px 4px;
     }
     .cadre-photo  span{
-    padding-right: 30px;
+        padding: 40px;
+    padding-right: 50px;
     color: rgb(245, 245, 245);
     text-shadow: #000 2px 2px 4px;
 }
