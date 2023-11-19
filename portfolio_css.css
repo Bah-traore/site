@@ -365,6 +365,20 @@ display:inline-block;
         margin-left: 0px;
         width: 100%;
         }
+    .social-btn {
+    padding-top: 3px;
+    cursor: pointer;
+    height: 20px;
+    width: 80px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #f5eeee;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    background: rgba(203, 199, 199, 0.23);
+    margin: 5px;
+    transition: 1s;
+    box-shadow: #000 2px 4px 30px 2px;
+    }
     div.social-btn > p{
         padding-top: 5px;
         padding-bottom: 8px;
