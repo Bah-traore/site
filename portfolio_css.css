@@ -313,14 +313,9 @@ font-family: cursive;
 .table-e{
 cursor: pointer;
 height: 20px;
-width: 10px;
+width: 15px;
 border-radius: 10px;
 transition: 0.60s;
-}
-.table-e:hover  {
-height: 20px;
-width: 5px;
-border-radius: 5px;
 }
 .tabl-horizontal {
 display:inline-block;
