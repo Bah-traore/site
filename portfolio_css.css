@@ -365,7 +365,7 @@ display:inline-block;
         margin-left: 0px;
         width: 100%;
         }
-    .social-btn {
+    td.social-btn {
     padding-top: 3px;
     cursor: pointer;
     height: 20px;
