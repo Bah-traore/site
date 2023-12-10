@@ -150,7 +150,7 @@ justify-content: center;
     justify-content: center;
 }
 .cadre-photo{
-    text-transform: uppercase;
+    text-transform: capitalize;
     text-align: center;
     border-radius: 5px;
     width: 35%;
